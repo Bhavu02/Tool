@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore a wide range of free online tools for image and PDF processing. Compress, convert, edit, and optimize your files with ease.">
+    <meta name="keywords" content="image tools, PDF tools, online tools, compress images, edit PDF, free tools">
+    <meta name="author" content="Your Name">
+    <title>Online Tools - Image & PDF Tools</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Header */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: 600;
+        }
+
+        header p {
+            margin: 0.5rem 0 0;
+            font-size: 1.1rem;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #333;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #4CAF50;
+        }
+
+        /* Main Content */
+        main {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 4rem 2rem;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+
+        .hero h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+
+        .hero .cta-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .hero .cta-btn:hover {
+            background-color: #45a049;
+            transform: translateY(-2px);
+        }
+
+        /* Tools Grid */
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .tool-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .tool-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+        }
+
+        .tool-card img {
+            width: 64px;
+            height: 64px;
+            margin-bottom: 1rem;
+        }
+
+        .tool-card h3 {
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .tool-card p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        /* Categories Section */
+        .categories {
+            margin: 2rem 0;
+        }
+
+        .categories h2 {
+            font-size: 1.75rem;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .categories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .category-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .category-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+        }
+
+        .category-card img {
+            width: 64px;
+            height: 64px;
+            margin-bottom: 1rem;
+        }
+
+        .category-card h3 {
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .hero h2 {
+                font-size: 1.75rem;
+            }
+
+            .tools-grid, .categories-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Online Tools</h1>
+        <p>Your one-stop solution for image and PDF processing</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Image Tools</a>
+        <a href="#">PDF Tools</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <h2>Free Online Tools for Image & PDF Processing</h2>
+            <p>Compress, convert, edit, and optimize your files with ease.</p>
+            <a href="#tools" class="cta-btn">Explore Tools</a>
+        </section>
+
+        <!-- Featured Tools -->
+        <section id="tools">
+            <h2>Featured Tools</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <img src="https://via.placeholder.com/64" alt="Image Compressor">
+                    <h3>Image Compressor</h3>
+                    <p>Compress images without losing quality.</p>
+                </div>
+                <div class="tool-card">
+                    <img src="https://via.placeholder.com/64" alt="PDF Merger">
+                    <h3>PDF Merger</h3>
+                    <p>Merge multiple PDF files into one.</p>
+                </div>
+                <div class="tool-card">
+                    <img src="https://via.placeholder.com/64" alt="Image Converter">
+                    <h3>Image Converter</h3>
+                    <p>Convert images to different formats.</p>
+                </div>
+                <div class="tool-card">
+                    <img src="https://via.placeholder.com/64" alt="PDF Splitter">
+                    <h3>PDF Splitter</h3>
+                    <p>Split PDF files into individual pages.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories Section -->
+        <section class="categories">
+            <h2>Categories</h2>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <img src="https://via.placeholder.com/64" alt="Image Tools">
+                    <h3>Image Tools</h3>
+                    <p>Tools for image processing and optimization.</p>
+                </div>
+                <div class="category-card">
+                    <img src="https://via.placeholder.com/64" alt="PDF Tools">
+                    <h3>PDF Tools</h3>
+                    <p>Tools for PDF editing and conversion.</p>
+                </div>
+                <div class="category-card">
+                    <img src="https://via.placeholder.com/64" alt="Other Tools">
+                    <h3>Other Tools</h3>
+                    <p>Explore more tools for your needs.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Online Tools. All rights reserved.</p>
+    </footer>
+</body>
+</html>
